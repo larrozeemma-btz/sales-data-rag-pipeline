@@ -1,0 +1,21 @@
+Question: Show Coca-Cola sold in Bavaria with a 10% discount
+Constraints read from the question: {'product': 'Coca-Cola', 'region': 'Bayern', 'discount': 10}
+
+== TF-IDF only
+  Product                 Region Customer_Type  Discount  Quantity  Total_Price  similarity
+Coca-Cola    Nordrhein-Westfalen           B2C         0        10         15.1       0.707
+Coca-Cola    Nordrhein-Westfalen           B2C         0        10         15.1       0.707
+Coca-Cola      Baden-Württemberg           B2C         0        10         15.1       0.693
+Coca-Cola Mecklenburg-Vorpommern           B2C         0        10         15.1       0.650
+Coca-Cola    Nordrhein-Westfalen           B2C         0         5          7.1       0.607
+Based on the 5 most relevant records: products Coca-Cola; regions Baden-Württemberg, Mecklenburg-Vorpommern, Nordrhein-Westfalen; customer types B2C; discounts 0%. Average quantity 9.0 units, average order line 13.50 EUR (range 7.10 to 15.10 EUR). 
+
+== Constraint filter + TF-IDF
+  Product Region Customer_Type  Discount  Quantity  Total_Price  similarity
+Coca-Cola Bayern           B2B        10        32        44.64       0.465
+Coca-Cola Bayern           B2B        10        41        52.40       0.460
+Coca-Cola Bayern           B2B        10        28        39.31       0.448
+Coca-Cola Bayern           B2B        10        26        35.33       0.443
+Coca-Cola Bayern           B2B        10        56        74.09       0.429
+Based on the 5 most relevant records: products Coca-Cola; regions Bayern; customer types B2B; discounts 10%. Average quantity 36.6 units, average order line 49.15 EUR (range 35.33 to 74.09 EUR). 
+

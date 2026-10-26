@@ -1,0 +1,121 @@
+query_type,question,retriever,precision_at_5
+Product + region (German name),Moët Brut orders from Rheinland-Pfalz,TF-IDF only,1.0
+Product + region (German name),Moët Brut orders from Rheinland-Pfalz,Constraint filter + TF-IDF,1.0
+Product + region (German name),Schweppes Tonic orders from Bayern,TF-IDF only,1.0
+Product + region (German name),Schweppes Tonic orders from Bayern,Constraint filter + TF-IDF,1.0
+Product + region (German name),Mezzo Mix orders from Mecklenburg-Vorpommern,TF-IDF only,1.0
+Product + region (German name),Mezzo Mix orders from Mecklenburg-Vorpommern,Constraint filter + TF-IDF,1.0
+Product + region (German name),Tchibo Coffee Beans orders from Bayern,TF-IDF only,1.0
+Product + region (German name),Tchibo Coffee Beans orders from Bayern,Constraint filter + TF-IDF,1.0
+Product + region (German name),Hohes C Orange orders from Hamburg,TF-IDF only,1.0
+Product + region (German name),Hohes C Orange orders from Hamburg,Constraint filter + TF-IDF,1.0
+Product + region (German name),Paulaner Weissbier orders from Nordrhein-Westfalen,TF-IDF only,1.0
+Product + region (German name),Paulaner Weissbier orders from Nordrhein-Westfalen,Constraint filter + TF-IDF,1.0
+Product + region (German name),Schweppes Tonic orders from Sachsen-Anhalt,TF-IDF only,1.0
+Product + region (German name),Schweppes Tonic orders from Sachsen-Anhalt,Constraint filter + TF-IDF,1.0
+Product + region (German name),Coca-Cola orders from Nordrhein-Westfalen,TF-IDF only,1.0
+Product + region (German name),Coca-Cola orders from Nordrhein-Westfalen,Constraint filter + TF-IDF,1.0
+Product + region (German name),Vittel orders from Hamburg,TF-IDF only,1.0
+Product + region (German name),Vittel orders from Hamburg,Constraint filter + TF-IDF,1.0
+Product + region (German name),Monster Energy orders from Saarland,TF-IDF only,1.0
+Product + region (German name),Monster Energy orders from Saarland,Constraint filter + TF-IDF,1.0
+Category + customer type,Find Alcoholic Beverages purchased by B2C customers,TF-IDF only,1.0
+Category + customer type,Find Alcoholic Beverages purchased by B2C customers,Constraint filter + TF-IDF,1.0
+Category + customer type,Find Energy Drinks purchased by B2C customers,TF-IDF only,1.0
+Category + customer type,Find Energy Drinks purchased by B2C customers,Constraint filter + TF-IDF,1.0
+Category + customer type,Find Water purchased by B2B customers,TF-IDF only,1.0
+Category + customer type,Find Water purchased by B2B customers,Constraint filter + TF-IDF,1.0
+Category + customer type,Find Alcoholic Beverages purchased by B2B customers,TF-IDF only,1.0
+Category + customer type,Find Alcoholic Beverages purchased by B2B customers,Constraint filter + TF-IDF,1.0
+Category + customer type,Find Juices purchased by B2C customers,TF-IDF only,1.0
+Category + customer type,Find Juices purchased by B2C customers,Constraint filter + TF-IDF,1.0
+Category + customer type,Find Water purchased by B2C customers,TF-IDF only,1.0
+Category + customer type,Find Water purchased by B2C customers,Constraint filter + TF-IDF,1.0
+Category + customer type,Find Juices purchased by B2B customers,TF-IDF only,1.0
+Category + customer type,Find Juices purchased by B2B customers,Constraint filter + TF-IDF,1.0
+Category + customer type,Find Hot Drinks purchased by B2C customers,TF-IDF only,1.0
+Category + customer type,Find Hot Drinks purchased by B2C customers,Constraint filter + TF-IDF,1.0
+Category + customer type,Find Soft Drinks purchased by B2B customers,TF-IDF only,1.0
+Category + customer type,Find Soft Drinks purchased by B2B customers,Constraint filter + TF-IDF,1.0
+Category + customer type,Find Soft Drinks purchased by B2C customers,TF-IDF only,1.0
+Category + customer type,Find Soft Drinks purchased by B2C customers,Constraint filter + TF-IDF,1.0
+Product + region (German name) + discount,Show Fanta sold in Thüringen with a 10% discount,TF-IDF only,0.2
+Product + region (German name) + discount,Show Fanta sold in Thüringen with a 10% discount,Constraint filter + TF-IDF,1.0
+Product + region (German name) + discount,Show Hohes C Orange sold in Niedersachsen with a 15% discount,TF-IDF only,0.0
+Product + region (German name) + discount,Show Hohes C Orange sold in Niedersachsen with a 15% discount,Constraint filter + TF-IDF,1.0
+Product + region (German name) + discount,Show Erdinger Weissbier sold in Hessen with a 15% discount,TF-IDF only,0.2
+Product + region (German name) + discount,Show Erdinger Weissbier sold in Hessen with a 15% discount,Constraint filter + TF-IDF,1.0
+Product + region (German name) + discount,Show Jägermeister sold in Niedersachsen with a 10% discount,TF-IDF only,0.0
+Product + region (German name) + discount,Show Jägermeister sold in Niedersachsen with a 10% discount,Constraint filter + TF-IDF,1.0
+Product + region (German name) + discount,Show Teekanne Green Tea sold in Bayern with a 10% discount,TF-IDF only,0.0
+Product + region (German name) + discount,Show Teekanne Green Tea sold in Bayern with a 10% discount,Constraint filter + TF-IDF,1.0
+Product + region (German name) + discount,Show Teekanne Green Tea sold in Bayern with a 5% discount,TF-IDF only,0.0
+Product + region (German name) + discount,Show Teekanne Green Tea sold in Bayern with a 5% discount,Constraint filter + TF-IDF,1.0
+Product + region (German name) + discount,Show Paulaner Weissbier sold in Schleswig-Holstein with a 10% discount,TF-IDF only,0.2
+Product + region (German name) + discount,Show Paulaner Weissbier sold in Schleswig-Holstein with a 10% discount,Constraint filter + TF-IDF,1.0
+Product + region (German name) + discount,Show Club-Mate sold in Nordrhein-Westfalen with a 10% discount,TF-IDF only,0.0
+Product + region (German name) + discount,Show Club-Mate sold in Nordrhein-Westfalen with a 10% discount,Constraint filter + TF-IDF,1.0
+Product + region (German name) + discount,Show Jägermeister sold in Nordrhein-Westfalen with a 10% discount,TF-IDF only,0.2
+Product + region (German name) + discount,Show Jägermeister sold in Nordrhein-Westfalen with a 10% discount,Constraint filter + TF-IDF,1.0
+Product + region (German name) + discount,Show Moët Brut sold in Schleswig-Holstein with a 5% discount,TF-IDF only,0.0
+Product + region (German name) + discount,Show Moët Brut sold in Schleswig-Holstein with a 5% discount,Constraint filter + TF-IDF,1.0
+Product + region (English name) + discount,Show Schweppes Tonic sold in North Rhine-Westphalia with a 10% discount,TF-IDF only,0.0
+Product + region (English name) + discount,Show Schweppes Tonic sold in North Rhine-Westphalia with a 10% discount,Constraint filter + TF-IDF,1.0
+Product + region (English name) + discount,Show Jacobs Krönung sold in Hesse with a 15% discount,TF-IDF only,0.2
+Product + region (English name) + discount,Show Jacobs Krönung sold in Hesse with a 15% discount,Constraint filter + TF-IDF,1.0
+Product + region (English name) + discount,Show Coca-Cola sold in Hesse with a 10% discount,TF-IDF only,0.0
+Product + region (English name) + discount,Show Coca-Cola sold in Hesse with a 10% discount,Constraint filter + TF-IDF,1.0
+Product + region (English name) + discount,Show Jacobs Krönung sold in North Rhine-Westphalia with a 10% discount,TF-IDF only,0.0
+Product + region (English name) + discount,Show Jacobs Krönung sold in North Rhine-Westphalia with a 10% discount,Constraint filter + TF-IDF,1.0
+Product + region (English name) + discount,Show Apollinaris sold in Hesse with a 5% discount,TF-IDF only,0.0
+Product + region (English name) + discount,Show Apollinaris sold in Hesse with a 5% discount,Constraint filter + TF-IDF,1.0
+Product + region (English name) + discount,Show Evian sold in Bavaria with a 5% discount,TF-IDF only,0.0
+Product + region (English name) + discount,Show Evian sold in Bavaria with a 5% discount,Constraint filter + TF-IDF,1.0
+Product + region (English name) + discount,Show Apollinaris sold in Bavaria with a 15% discount,TF-IDF only,0.0
+Product + region (English name) + discount,Show Apollinaris sold in Bavaria with a 15% discount,Constraint filter + TF-IDF,1.0
+Product + region (English name) + discount,Show Apollinaris sold in Lower Saxony with a 10% discount,TF-IDF only,0.0
+Product + region (English name) + discount,Show Apollinaris sold in Lower Saxony with a 10% discount,Constraint filter + TF-IDF,1.0
+Product + region (English name) + discount,Show Rauch Multivitamin sold in North Rhine-Westphalia with a 15% discount,TF-IDF only,0.0
+Product + region (English name) + discount,Show Rauch Multivitamin sold in North Rhine-Westphalia with a 15% discount,Constraint filter + TF-IDF,1.0
+Product + region (English name) + discount,Show Krombacher Pils sold in Lower Saxony with a 5% discount,TF-IDF only,0.0
+Product + region (English name) + discount,Show Krombacher Pils sold in Lower Saxony with a 5% discount,Constraint filter + TF-IDF,1.0
+Category + region (English name) + customer type,Juices sold to B2C customers in Lower Saxony,TF-IDF only,0.0
+Category + region (English name) + customer type,Juices sold to B2C customers in Lower Saxony,Constraint filter + TF-IDF,1.0
+Category + region (English name) + customer type,Energy Drinks sold to B2C customers in Rhineland-Palatinate,TF-IDF only,0.0
+Category + region (English name) + customer type,Energy Drinks sold to B2C customers in Rhineland-Palatinate,Constraint filter + TF-IDF,1.0
+Category + region (English name) + customer type,Hot Drinks sold to B2B customers in Bavaria,TF-IDF only,0.0
+Category + region (English name) + customer type,Hot Drinks sold to B2B customers in Bavaria,Constraint filter + TF-IDF,1.0
+Category + region (English name) + customer type,Water sold to B2B customers in Rhineland-Palatinate,TF-IDF only,0.0
+Category + region (English name) + customer type,Water sold to B2B customers in Rhineland-Palatinate,Constraint filter + TF-IDF,1.0
+Category + region (English name) + customer type,Water sold to B2C customers in Lower Saxony,TF-IDF only,0.0
+Category + region (English name) + customer type,Water sold to B2C customers in Lower Saxony,Constraint filter + TF-IDF,1.0
+Category + region (English name) + customer type,Soft Drinks sold to B2B customers in Saxony,TF-IDF only,0.2
+Category + region (English name) + customer type,Soft Drinks sold to B2B customers in Saxony,Constraint filter + TF-IDF,1.0
+Category + region (English name) + customer type,Water sold to B2B customers in Hesse,TF-IDF only,0.0
+Category + region (English name) + customer type,Water sold to B2B customers in Hesse,Constraint filter + TF-IDF,1.0
+Category + region (English name) + customer type,Soft Drinks sold to B2C customers in Saxony,TF-IDF only,0.0
+Category + region (English name) + customer type,Soft Drinks sold to B2C customers in Saxony,Constraint filter + TF-IDF,1.0
+Category + region (English name) + customer type,Juices sold to B2C customers in Rhineland-Palatinate,TF-IDF only,0.0
+Category + region (English name) + customer type,Juices sold to B2C customers in Rhineland-Palatinate,Constraint filter + TF-IDF,1.0
+Category + region (English name) + customer type,Juices sold to B2B customers in Thuringia,TF-IDF only,0.0
+Category + region (English name) + customer type,Juices sold to B2B customers in Thuringia,Constraint filter + TF-IDF,1.0
+Product nickname + region (English name) + discount,Show Coke sold in Bavaria with a 10% discount,TF-IDF only,0.0
+Product nickname + region (English name) + discount,Show Coke sold in Bavaria with a 10% discount,Constraint filter + TF-IDF,0.0
+Product nickname + region (English name) + discount,Show Redbull sold in Saxony with a 10% discount,TF-IDF only,0.0
+Product nickname + region (English name) + discount,Show Redbull sold in Saxony with a 10% discount,Constraint filter + TF-IDF,0.2
+Product nickname + region (English name) + discount,Show Coke sold in North Rhine-Westphalia with a 10% discount,TF-IDF only,0.0
+Product nickname + region (English name) + discount,Show Coke sold in North Rhine-Westphalia with a 10% discount,Constraint filter + TF-IDF,0.0
+Product nickname + region (English name) + discount,Show Redbull sold in Saxony with a 15% discount,TF-IDF only,0.0
+Product nickname + region (English name) + discount,Show Redbull sold in Saxony with a 15% discount,Constraint filter + TF-IDF,0.0
+Product nickname + region (English name) + discount,Show Paulaner wheat beer sold in North Rhine-Westphalia with a 10% discount,TF-IDF only,0.0
+Product nickname + region (English name) + discount,Show Paulaner wheat beer sold in North Rhine-Westphalia with a 10% discount,Constraint filter + TF-IDF,1.0
+Product nickname + region (English name) + discount,Show Jager sold in Bavaria with a 5% discount,TF-IDF only,0.0
+Product nickname + region (English name) + discount,Show Jager sold in Bavaria with a 5% discount,Constraint filter + TF-IDF,0.0
+Product nickname + region (English name) + discount,Show Jager sold in North Rhine-Westphalia with a 15% discount,TF-IDF only,0.0
+Product nickname + region (English name) + discount,Show Jager sold in North Rhine-Westphalia with a 15% discount,Constraint filter + TF-IDF,0.2
+Product nickname + region (English name) + discount,Show orange juice sold in North Rhine-Westphalia with a 15% discount,TF-IDF only,0.0
+Product nickname + region (English name) + discount,Show orange juice sold in North Rhine-Westphalia with a 15% discount,Constraint filter + TF-IDF,0.8
+Product nickname + region (English name) + discount,Show Jager sold in North Rhine-Westphalia with a 5% discount,TF-IDF only,0.0
+Product nickname + region (English name) + discount,Show Jager sold in North Rhine-Westphalia with a 5% discount,Constraint filter + TF-IDF,0.0
+Product nickname + region (English name) + discount,Show Paulaner wheat beer sold in Hesse with a 10% discount,TF-IDF only,0.0
+Product nickname + region (English name) + discount,Show Paulaner wheat beer sold in Hesse with a 10% discount,Constraint filter + TF-IDF,1.0
